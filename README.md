@@ -10,7 +10,7 @@ curl -X POST https://api.mackerelio.com/api/v0/services \
     -d '{"name": "AWS", "memo": "aws cost"}'
 
 make build
-sls deploy --aws-profile <PROFILE>--mkrkey ${MKRKEY}
+sls deploy --aws-profile <PROFILE> --mkrkey ${MKRKEY}
 ```
 
 
